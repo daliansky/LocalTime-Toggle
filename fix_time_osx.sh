@@ -5,8 +5,8 @@
 
 echo "This script required to run as root"
 
-sudo curl -o "/tmp/localtime-toggle" "https://raw.githubusercontent.com/hieplpvip/LocalTime-Toggle/master/sbin/localtime-toggle"
-sudo curl -o "/tmp/org.osx86.localtime-toggle.plist" "https://raw.githubusercontent.com/hieplpvip/LocalTime-Toggle/master/Library/LaunchDaemons/org.osx86.localtime-toggle.plist"
+sudo curl -o "/tmp/localtime-toggle" "https://cdn.jsdelivr.net/gh/daliansky/LocalTime-Toggle/sbin/localtime-toggle"
+sudo curl -o "/tmp/org.osx86.localtime-toggle.plist" "https://cdn.jsdelivr.net/gh/daliansky/LocalTime-Toggle/master/Library/LaunchDaemons/org.osx86.localtime-toggle.plist"
 
 echo "Downloading required file"
 
